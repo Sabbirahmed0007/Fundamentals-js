@@ -168,7 +168,7 @@ else {
 var stm = 'I am Sorry bro';
 
 for(var i = 0; i<=100; i++){
-    console.log(stm, i);
+    // console.log(stm, i);
 }
 
 // While Loop
@@ -177,20 +177,52 @@ for(var i = 0; i<=100; i++){
 var i = 0;
 while(i <=10){
 
-    console.log(stm, i);
+    // console.log(stm, i);
     i++;
 }
 
+//Break and continue
+
+var arr = [10, 20, 30, 40, 50, 30, 40, 50, 60];
+
+// console.log(arr.indexOf(40));
+
+// console.log(arr.indexOf(100)); // If the element is not available in the array then it will show "-1" as result
 
 
+// for (var i = 0; i< arr.length; i++){
+//     console.log(arr[i]);
+    
+// }
+
+// break
+
+for (var i = 0; i< arr.length; i++){
+    // console.log(arr[i]);
+    if(arr[i]=== 30){
+        break;
+    }
+    // console.log(arr[i]);
+    
+}
+
+/// continue
+for (var i = 0; i< arr.length; i++){
+    // console.log(arr[i]);
+    if(arr[i]=== 30){
+        continue;
+    }
+    console.log(arr[i]);
+    
+}
 
 
+// var x = 0;
 
-
-
-
-
-
+// while(x < arr.length){
+//     console.log(arr[x]);
+//     x++;
+// }
 
 
 
