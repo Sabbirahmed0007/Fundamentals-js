@@ -151,7 +151,7 @@ if (temperature > 30) {
 }
 else {
     console.log('It is a cold day.');
-    if (isRaining) {
+    if (isRaining === true) {
         console.log("And It's raining.");
     } else {
         console.log('But It  is not raining.');
@@ -159,6 +159,27 @@ else {
 }
 
 
+// ----------------------------------------
+// Loop
+// ----------------------------------------
+
+// For Loop
+//-------------------
+var stm = 'I am Sorry bro';
+
+for(var i = 0; i<=100; i++){
+    console.log(stm, i);
+}
+
+// While Loop
+//----------------------
+
+var i = 0;
+while(i <=10){
+
+    console.log(stm, i);
+    i++;
+}
 
 
 
