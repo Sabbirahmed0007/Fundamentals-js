@@ -212,7 +212,7 @@ for (var i = 0; i< arr.length; i++){
     if(arr[i]=== 30){
         continue;
     }
-    console.log(arr[i]);
+    // console.log(arr[i]);
     
 }
 
@@ -225,6 +225,42 @@ for (var i = 0; i< arr.length; i++){
 // }
 
 
+// ---------------------------------------
+// Comparision operator
+//---------------------------------------
 
+//Type validation
+var x = 5;
+if(x === 5){
+    console.log('Equal to 5');
+}
+else{
+    console.log('Not equal to 5.');
+}
+
+
+// Multiple condition
+// var raining = true;
+// var umbrella = false;
+
+if(raining == true && umbrella== true){
+    console.log('I will go out.');
+}
+else{
+    console.log('I will not go out');
+}
+
+var raining = true;
+var umbrella = false;
+
+if(raining == false || umbrella == true){
+    console.log('I will go out.');
+}
+else if(raining == true && umbrella== true){
+    console.log('I will go out');
+}
+else{
+    console.log('I will not go out');
+}
 
 
