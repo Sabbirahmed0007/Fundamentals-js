@@ -264,3 +264,58 @@ else{
 }
 
 
+
+
+// Mathematical operators
+
+// var x = 13;
+// var y = 5;
+// console.log(x*y);
+// console.log(x/y);
+// console.log(x+y);
+// console.log(x-y);
+// console.log(x%y);
+
+
+
+
+
+// Uses of Modulus (%)
+// Abul Bhai will marry. He hired buses, cars. Per bus contains 50, per car contains 11, Rest will go through Rickshaw. The fare of rickshaw is 70 taka per.
+// Have to compute how much it will cost if they go through rickshaw
+
+
+var peoples = 227;
+var peopleForCar =peoples % 50;
+var peopleForRickshaw = peopleForCar% 11;
+var totalFare = peopleForRickshaw*70;
+console.log(totalFare);
+
+
+// Ternary operator
+// ---------------------------
+
+var itIsRaining = true;
+
+itIsRaining == true? console.log('I will go out'): console.log(' I will not go out' );
+
+
+
+// Nested condition 
+// ----------------------
+var age = 25;
+var hasLicence = true;
+
+if(age >= 18){
+    if(hasLicence== true){
+        console.log('You have licence and ou are adult. So You are authorized to drive');
+    }
+    else{
+        console.log('You are adult but have no Licence . Sorry you cannot drive');
+    }
+}
+else{
+    console.log('You cannot drive. cause Neither you are adult nor have licence ');
+}
+
+age>= 18 ? hasLicence == true?console.log('You have licence and ou are adult. So You are authorized to drive') : console.log('You are adult but have no Licence . Sorry you cannot drive'):console.log('You cannot drive. cause Neither you are adult nor have licence ');
